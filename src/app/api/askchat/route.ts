@@ -38,7 +38,7 @@ export const POST = async (req: NextRequest) => {
         _id: "ai",
         name: "AI",
         avatar:
-          "public/image/logoAja.png",
+          "/image/logoAja.png",
       },
     };
 
