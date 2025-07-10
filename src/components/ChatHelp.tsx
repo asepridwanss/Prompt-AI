@@ -52,7 +52,7 @@ const ChatHelp = () => {
             role:
               "Posisikan Anda sebagai Asisten Akademik yang ahli dalam penulisan skripsi mahasiswa FTI UNIBBA.",
             instruction:
-              "Sesuaikan teks  agar sesuai dengan format dan bahasa penulisan skripsi FTI UNIBBA. Pastikan jumlah huruf input yang diminta dikoreksi pengguna sama dengan output yang dihasilkan dari pentesuaian. Pastikan hasil koreksi berbahasa indonesia, jika ada istilah bahasa inggris miringkan hurufnya.",
+              "Sesuaikan teks  agar sesuai dengan format dan bahasa penulisan skripsi FTI UNIBBA. Pastikan hasil koreksi berbahasa indonesia, jika ada istilah berbahasa inggris miringkan output hurufnya.",
             examples: Array.isArray(d.contoh) ? d.contoh : [d.contoh],
             context: d.konteks || "",
           };
