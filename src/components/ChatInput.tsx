@@ -1,4 +1,3 @@
-
 "use client";
 
 import { db } from "@/firebase";
@@ -10,7 +9,7 @@ import { FormEvent, useState } from "react";
 import toast from "react-hot-toast";
 import { ImArrowUpRight2 } from "react-icons/im";
 import { useAtomValue } from "jotai";
-import { selectedPedomanAtom } from "@/lib/store/pedomanAtom"; // ✅ ganti di sini
+import { selectedPedomanAtom } from "@/lib/store/pedomanAtom";
 import useSWR from "swr";
 import ModelSelection from "./ModelSelection";
 
@@ -22,7 +21,7 @@ const ChatInput = ({ id }: { id?: string }) => {
   const [loading, setLoading] = useState(false);
   const { data: model } = useSWR("model", { fallbackData: "gpt-3.5-turbo" });
 
-  const selectedPedoman = useAtomValue(selectedPedomanAtom); // ✅ ambil satu yang dipilih
+  const selectedPedoman = useAtomValue(selectedPedomanAtom);
 
   const userEmail = session?.user?.email || "unknown";
   const userName = session?.user?.name || "unknown";
@@ -31,21 +30,26 @@ const ChatInput = ({ id }: { id?: string }) => {
     e.preventDefault();
     if (!prompt) return;
 
+    // Susun prompt sesuai struktur engineering
     const combinedPrompt = selectedPedoman
-      ? `${prompt}
+      ? `Role:
+${selectedPedoman.role}
 
-      Role:
-      Posisikan Anda sebagai Asisten Akademik yang ahli dalam penulisan skripsi mahasiswa FTI UNIBBA.
+Instruction:
+${selectedPedoman.instruction}
 
-      Instruction:
-      Sesuaikan teks berikut agar sesuai dengan format dan bahasa penulisan skripsi FTI UNIBBA.
+Example of writing format:
+- ${selectedPedoman.examples[0] || "Tidak tersedia."}
 
-      Pedoman:
+Context:
+${selectedPedoman.context}
 
-      📌 ${selectedPedoman.title}
-      ${selectedPedoman.pedoman}`
-
+Teks yang ingin disesuaikan:
+${prompt}`
       : prompt;
+
+    // Debug (opsional)
+    console.log("Prompt dikirim ke GPT:", combinedPrompt);
 
     const message: Message = {
       text: prompt.trim(),
@@ -105,19 +109,25 @@ const ChatInput = ({ id }: { id?: string }) => {
   };
 
   return (
-    <div className="w-full flex flex-col items-center justify-center max-w-3xl mx-auto pt-3">
+    <div className="w-full flex flex-col items-center justify-center pt-3 px-4 sm:px-6 md:px-8">
       <form
         onSubmit={sendMessage}
-        className="bg-white/10 rounded-full flex items-center px-4 py-2.5 w-full border border-black"
+        className="bg-white/10 rounded-xl flex items-end gap-2 px-4 py-2 w-full max-w-3xl border border-black overflow-hidden min-w-0"
       >
-        <input
-          type="text"
+        <textarea
           value={prompt}
           onChange={(e) => setPrompt(e.target.value)}
+          onInput={(e) => {
+            const target = e.target as HTMLTextAreaElement;
+            target.style.height = "auto";
+            target.style.height = `${target.scrollHeight}px`;
+          }}
           placeholder="Message PorsiAI"
-          className="bg-transparent text-primary-foreground font-medium placeholder:text-primary-foreground/50 px-3 outline-none w-full"
+          rows={1}
+          className="flex-1 bg-transparent resize-none text-primary-foreground font-medium placeholder:text-primary-foreground/50 w-full px-3 py-2 outline-none h-auto max-h-52 overflow-y-auto"
           disabled={loading}
         />
+
         <button
           disabled={!prompt || loading}
           type="submit"
@@ -128,10 +138,11 @@ const ChatInput = ({ id }: { id?: string }) => {
       </form>
 
       {id && (
-        <p className="text-xs mt-2 font-medium tracking-wide">
+        <p className="text-xs mt-2 font-medium tracking-wide text-center text-gray-600">
           PorsiAI can make mistakes. Check important info.
         </p>
       )}
+
       <div className="w-full md:hidden mt-2">
         <ModelSelection />
       </div>

@@ -1,4 +1,3 @@
-
 "use client";
 
 import React, { useEffect, useState } from "react";
@@ -7,8 +6,9 @@ import { selectedPedomanAtom } from "@/lib/store/pedomanAtom";
 import { getPedomanApiRequest } from "@/lib/getApiRequest";
 import { MdEditNote } from "react-icons/md";
 
+// Data tombol yang ditampilkan
 const selectData = [
-  { title: "Penulisan Abstrak", icon: <MdEditNote />, iconColor: "#2483DF" },
+  { title: "Abstrak", icon: <MdEditNote />, iconColor: "#2483DF" },
   { title: "Latar Belakang", icon: <MdEditNote />, iconColor: "#2483DF" },
   { title: "Rumusan Masalah", icon: <MdEditNote />, iconColor: "#2483DF" },
   { title: "Batasan Masalah", icon: <MdEditNote />, iconColor: "#2483DF" },
@@ -16,20 +16,46 @@ const selectData = [
   { title: "Daftar Pustaka", icon: <MdEditNote />, iconColor: "#2483DF" },
 ];
 
+// Tipe lokal hanya untuk data dari API
+interface PedomanAPIItem {
+  poinBab: string;
+  contoh: string | string[];
+  konteks: string;
+}
+
 const ChatHelp = () => {
   const setSelectedPedoman = useSetAtom(selectedPedomanAtom);
-  const [pedomanMap, setPedomanMap] = useState<Record<string, string>>({});
-  const [activeTitle, setActiveTitle] = useState<string | null>(null); // ✅ simpan item yang aktif
+  const [pedomanMap, setPedomanMap] = useState<
+    Record<
+      string,
+      {
+        title: string;
+        role: string;
+        instruction: string;
+        examples: string[];
+        context: string;
+      }
+    >
+  >({});
+  const [activeTitle, setActiveTitle] = useState<string | null>(null);
 
   useEffect(() => {
     const fetchPedoman = async () => {
-      const data = await getPedomanApiRequest();
-      const mapped: Record<string, string> = {};
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      data.forEach((d: any) => {
+      const data: PedomanAPIItem[] = await getPedomanApiRequest();
+      const mapped: typeof pedomanMap = {};
+
+      data.forEach((d) => {
         if (d.poinBab) {
           const key = d.poinBab.toLowerCase().trim();
-          mapped[key] = `${d.contoh || ""}\n\n${d.konteks || ""}`;
+          mapped[key] = {
+            title: d.poinBab,
+            role:
+              "Posisikan Anda sebagai Asisten Akademik yang ahli dalam penulisan skripsi mahasiswa FTI UNIBBA.",
+            instruction:
+              "Sesuaikan teks  agar sesuai dengan format dan bahasa penulisan skripsi FTI UNIBBA. Pastikan jumlah huruf input yang diminta dikoreksi pengguna sama dengan output yang dihasilkan dari pentesuaian. Pastikan hasil koreksi berbahasa indonesia, jika ada istilah bahasa inggris miringkan hurufnya.",
+            examples: Array.isArray(d.contoh) ? d.contoh : [d.contoh],
+            context: d.konteks || "",
+          };
         }
       });
 
@@ -44,14 +70,18 @@ const ChatHelp = () => {
     const pedoman = pedomanMap[key];
 
     if (activeTitle === title) {
-      // ✅ jika klik ulang, nonaktifkan
       setActiveTitle(null);
       setSelectedPedoman(null);
     } else {
-      // ✅ jika klik berbeda, aktifkan yang baru
       setActiveTitle(title);
       if (pedoman) {
-        setSelectedPedoman({ title, pedoman });
+        setSelectedPedoman({
+          title: pedoman.title,
+          role: pedoman.role,
+          instruction: pedoman.instruction,
+          examples: pedoman.examples,
+          context: pedoman.context,
+        });
       }
     }
   };

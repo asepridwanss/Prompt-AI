@@ -4,6 +4,10 @@ import { DocumentData } from "firebase/firestore";
 import Image from "next/image";
 import React from "react";
 import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
+import rehypeHighlight from "rehype-highlight";
+
+import "highlight.js/styles/github.css"; // atau gunakan tema lain
 
 interface Props {
   message: DocumentData;
@@ -41,9 +45,20 @@ const Message = ({ message }: Props) => {
               isChatGPT
                 ? "bg-[#F7F7F8] text-gray-900 border border-gray-200"
                 : "bg-[#2F2F2F] text-white"
-            } px-4 py-2 rounded-lg shadow-sm text-base font-medium tracking-wide whitespace-pre-wrap space-y-2 text-justify prose prose-sm max-w-none`}
+            } px-4 py-3 rounded-lg shadow-sm text-base tracking-wide whitespace-pre-wrap space-y-2 text-justify prose prose-sm max-w-none
+              prose-headings:font-semibold
+              prose-code:bg-gray-100 prose-code:text-pink-600 prose-code:px-1 prose-code:py-0.5 prose-code:rounded
+              prose-pre:bg-gray-900 prose-pre:text-white prose-pre:rounded-lg prose-pre:p-4 overflow-x-auto
+              prose-a:text-blue-600 hover:prose-a:underline
+              prose-blockquote:border-l-4 prose-blockquote:pl-4 prose-blockquote:text-gray-600 prose-blockquote:italic
+            `}
           >
-            <ReactMarkdown>{message?.text || ""}</ReactMarkdown>
+            <ReactMarkdown
+              remarkPlugins={[remarkGfm]}
+              rehypePlugins={[rehypeHighlight]}
+            >
+              {message?.text || ""}
+            </ReactMarkdown>
           </div>
         </div>
       </div>

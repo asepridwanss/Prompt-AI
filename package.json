@@ -26,6 +26,7 @@
     "firebase": "^11.6.1",
     "firebase-admin": "^12.6.0",
     "framer-motion": "^11.11.9",
+    "highlight.js": "^11.11.1",
     "jotai": "^2.12.5",
     "jsdom": "^26.1.0",
     "lucide-react": "^0.453.0",
@@ -41,6 +42,8 @@
     "react-markdown": "^10.1.0",
     "react-quill": "^2.0.0",
     "react-select": "^5.8.1",
+    "rehype-highlight": "^7.0.2",
+    "remark-gfm": "^4.0.1",
     "swr": "^2.2.5",
     "tailwind-merge": "^2.5.4",
     "tailwindcss-animate": "^1.0.7"

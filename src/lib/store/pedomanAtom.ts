@@ -1,12 +1,13 @@
-// lib/store/pedomanAtom.ts
 "use client";
 
 import { atom } from "jotai";
 
-// Hanya satu pedoman aktif yang dipilih
 export interface PedomanItem {
   title: string;
-  pedoman: string;
+  role: string;
+  instruction: string;
+  examples: string[];
+  context: string;
 }
 
 export const selectedPedomanAtom = atom<PedomanItem | null>(null);

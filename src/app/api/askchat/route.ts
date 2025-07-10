@@ -38,7 +38,7 @@ export const POST = async (req: NextRequest) => {
         _id: "ai",
         name: "AI",
         avatar:
-          "https://res.cloudinary.com/duehd78sl/image/upload/v1729227742/logoLight_amxdpz.png",
+          "public/image/logoAja.png",
       },
     };
 
