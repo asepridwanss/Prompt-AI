@@ -67,7 +67,7 @@ ${prompt}`
       let chatDocumentId = chatId;
 
       if (!chatId) {
-        const docRef = await addDoc(collection(db, "users", userEmail, "chats"), {
+        const docRef = await addDoc(collection(db, "chatsRequests", userEmail, "chats"), {
           userId: userEmail,
           createdAt: serverTimestamp(),
         });
@@ -76,7 +76,7 @@ ${prompt}`
       }
 
       await addDoc(
-        collection(db, "users", userEmail, "chats", chatDocumentId!, "messages"),
+        collection(db, "chatsRequests", userEmail, "chats", chatDocumentId!, "messages"),
         message
       );
 

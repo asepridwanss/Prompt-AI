@@ -43,7 +43,7 @@ export const POST = async (req: NextRequest) => {
     };
 
     await adminDB
-      .collection("users")
+      .collection("chatsRequests")
       .doc(session)
       .collection("chats")
       .doc(id)

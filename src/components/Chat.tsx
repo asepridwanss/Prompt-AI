@@ -17,7 +17,7 @@ const Chat = ({ id }: { id: string }) => {
 
   const [messages] = useCollection(
     query(
-      collection(db, "users", userEmail, "chats", id, "messages"),
+      collection(db, "chatsRequests", userEmail, "chats", id, "messages"),
       orderBy("createdAt", "asc")
     )
   );

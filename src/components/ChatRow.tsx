@@ -32,7 +32,7 @@ const ChatRow = ({ id }: Props) => {
     query(
       collection(
         db,
-        "users",
+        "chatsRequests",
         session?.user?.email as string,
         "chats",
         id,
@@ -43,7 +43,7 @@ const ChatRow = ({ id }: Props) => {
 
   const [chatsSnapshot] = useCollection(
     query(
-      collection(db, "users", session?.user?.email as string, "chats"),
+      collection(db, "chatsRequests", session?.user?.email as string, "chats"),
       orderBy("createdAt", "desc")
     )
   );
@@ -55,7 +55,7 @@ const ChatRow = ({ id }: Props) => {
 
   const handleRemoveChat = async () => {
     await deleteDoc(
-      doc(db, "users", session?.user?.email as string, "chats", id)
+      doc(db, "chatsRequests", session?.user?.email as string, "chats", id)
     );
     if (active) {
       const nextChat = chatsSnapshot?.docs?.find((chat) => chat.id !== id);

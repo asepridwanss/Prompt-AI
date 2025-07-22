@@ -18,7 +18,7 @@ const SideBar = () => {
   const [chats, loading] = useCollection(
     session &&
       query(
-        collection(db, "users", session?.user?.email as string, "chats"),
+        collection(db, "chatsRequests", session?.user?.email as string, "chats"),
         orderBy("createdAt", "asc")
       )
   );
