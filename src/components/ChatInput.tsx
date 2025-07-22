@@ -32,16 +32,16 @@ const ChatInput = ({ id }: { id?: string }) => {
 
     // Susun prompt sesuai struktur engineering
     const combinedPrompt = selectedPedoman
-      ? `Role:
+      ? `Peran:
 ${selectedPedoman.role}
 
-Instruction:
+Instruksi:
 ${selectedPedoman.instruction}
 
-Example of writing format:
+Contoh format penulisan:
 - ${selectedPedoman.examples[0] || "Tidak tersedia."}
 
-Context:
+Konteks:
 ${selectedPedoman.context}
 
 Teks yang ingin disesuaikan:

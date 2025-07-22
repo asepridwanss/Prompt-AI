@@ -1,6 +1,13 @@
 "use client";
+
 import { db } from "@/firebase";
-import { collection, deleteDoc, doc, orderBy, query } from "firebase/firestore";
+import {
+  collection,
+  deleteDoc,
+  doc,
+  orderBy,
+  query
+} from "firebase/firestore";
 import { useSession } from "next-auth/react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
@@ -9,6 +16,7 @@ import { useCollection } from "react-firebase-hooks/firestore";
 import { BiSolidTrashAlt } from "react-icons/bi";
 import { IoChatboxOutline } from "react-icons/io5";
 import { motion } from "framer-motion";
+
 interface Props {
   id: string;
   index: number;
@@ -33,11 +41,6 @@ const ChatRow = ({ id }: Props) => {
     )
   );
 
-  useEffect(() => {
-    if (!pathname) return;
-    setActive(pathname.includes(id));
-  }, [pathname, id]);
-
   const [chatsSnapshot] = useCollection(
     query(
       collection(db, "users", session?.user?.email as string, "chats"),
@@ -45,21 +48,25 @@ const ChatRow = ({ id }: Props) => {
     )
   );
 
+  useEffect(() => {
+    if (!pathname) return;
+    setActive(pathname.includes(id));
+  }, [pathname, id]);
+
   const handleRemoveChat = async () => {
     await deleteDoc(
       doc(db, "users", session?.user?.email as string, "chats", id)
     );
-    // Set default active
     if (active) {
       const nextChat = chatsSnapshot?.docs?.find((chat) => chat.id !== id);
       if (nextChat) {
         router.push(`/chat/${nextChat.id}`);
       } else {
-        // No chats available, redirect to the homepage or another default route
         router.push("/");
       }
     }
   };
+
   const chat =
     messages?.docs[messages?.docs?.length - 1]?.data().text &&
     messages?.docs[messages?.docs?.length - 1]?.data();
@@ -70,13 +77,16 @@ const ChatRow = ({ id }: Props) => {
   return (
     <Link
       href={`/chat/${id}`}
-      className={`flex gap-2 items-center justify-center px-2 py-1.5 hover:bg-white/10 rounded-md border border-gray-300 mb-2 duration-300 ease-in ${active ? "bg-white/10" : "bg-transparent"
-        }`}
+      className={`flex items-start gap-4 px-4 py-3 hover:bg-gray-100 dark:hover:bg-white/10 rounded-lg border border-gray-200 dark:border-gray-700 mb-2 transition-colors ${
+        active ? "bg-gray-100 dark:bg-white/10" : "bg-transparent"
+      }`}
     >
-      <IoChatboxOutline />
+      {/* Chat Icon */}
+      <IoChatboxOutline className="text-xl text-gray-600 dark:text-gray-300 mt-1" />
 
-      <div className="relative flex-1 select-none overflow-hidden text-ellipsis break-all">
-        <span className="whitespace-nowrap">
+      {/* Chat Content */}
+      <div className="flex-1 overflow-hidden">
+        <p className="text-sm text-gray-800 dark:text-white leading-relaxed break-words line-clamp-2">
           {shouldAnimate ? (
             chat?.text ? (
               chat.text.split("").map((character: string, index: number) => (
@@ -94,35 +104,34 @@ const ChatRow = ({ id }: Props) => {
                     delay: index * 0.05,
                   }}
                 >
-                  <span
-                    className="text-sm font-medium tracking-wide"
-                    style={{ color: "#2483df" }}
-                  >
+                  <span className="text-sm font-normal text-[#2483df]">
                     {character}
                   </span>
-
                 </motion.span>
               ))
+            ) : loading ? (
+              "...."
             ) : (
-              <span className="text-sm font-medium tracking-wide">
-                {loading ? <span>....</span> : chatText}
-              </span>
+              chatText
             )
+          ) : loading ? (
+            "...."
           ) : (
-            <span className="text-sm font-medium tracking-wide">
-              {loading ? <span>....</span> : chatText}
-            </span>
+            chatText
           )}
-        </span>
+        </p>
       </div>
 
+      {/* Trash Icon */}
       <BiSolidTrashAlt
-        onClick={handleRemoveChat}
-        className="text-black/50 hover:text-red-700 duration-300 ease-in-out cursor-pointer"
+        onClick={(e) => {
+          e.preventDefault(); // Prevent link navigation
+          handleRemoveChat();
+        }}
+        className="text-gray-400 hover:text-red-600 transition-colors cursor-pointer mt-1"
       />
     </Link>
   );
-
 };
 
 export default ChatRow;
