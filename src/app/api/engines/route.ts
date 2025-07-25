@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 export const GET = async () => {
   try {
     const modelOptions = [
-      { value: "gpt-3.5-turbo", label: "gpt-3.5-turbo" },
+      { value: "gpt-4o", label: "gpt-4o" },
       { value: "gemini-2.5-flash", label: "gemini-2.5-flash" },
       { value: "deepseek-chat", label: "deepseek-chat" },
     ];

@@ -5,7 +5,7 @@ import { Message } from "@/type";
 import { addDoc, collection, serverTimestamp } from "firebase/firestore";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
-import { FormEvent, useState } from "react";
+import { FormEvent, useEffect, useState } from "react";
 import toast from "react-hot-toast";
 import { ImArrowUpRight2 } from "react-icons/im";
 import { useAtomValue } from "jotai";
@@ -17,20 +17,31 @@ const ChatInput = ({ id }: { id?: string }) => {
   const chatId = id;
   const router = useRouter();
   const [prompt, setPrompt] = useState("");
-  const { data: session } = useSession();
+  const { data: session, status } = useSession();
   const [loading, setLoading] = useState(false);
-  const { data: model } = useSWR("model", { fallbackData: "gpt-3.5-turbo" });
+  const { data: model } = useSWR("model", { fallbackData: "gpt-4o" });
 
   const selectedPedoman = useAtomValue(selectedPedomanAtom);
 
   const userEmail = session?.user?.email || "unknown";
   const userName = session?.user?.name || "unknown";
 
+  useEffect(() => {
+    if (status !== "loading" && !session) {
+      router.push("/signin");
+    }
+  }, [session, status, router]);
+
   const sendMessage = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (!prompt) return;
 
-    // Susun prompt sesuai struktur engineering
+    if (!session) {
+      toast.error("Silakan login terlebih dahulu.");
+      router.push("/signin");
+      return;
+    }
+
     const combinedPrompt = selectedPedoman
       ? `Peran:
 ${selectedPedoman.role}
@@ -47,9 +58,6 @@ ${selectedPedoman.context}
 Teks yang ingin disesuaikan:
 ${prompt}`
       : prompt;
-
-    // Debug (opsional)
-    console.log("Prompt dikirim ke GPT:", combinedPrompt);
 
     const message: Message = {
       text: prompt.trim(),
@@ -107,6 +115,8 @@ ${prompt}`
       setLoading(false);
     }
   };
+
+  if (status === "loading") return null;
 
   return (
     <div className="w-full flex flex-col items-center justify-center pt-3 px-4 sm:px-6 md:px-8">

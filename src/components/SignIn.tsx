@@ -12,11 +12,7 @@ import {
 } from "@/components/ui/card";
 import Image from "next/image";
 
-type SignInProps = {
-  onClose?: () => void;
-};
-
-const SignIn = ({ onClose }: SignInProps) => {
+const SignIn = () => {
   const router = useRouter();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -40,16 +36,6 @@ const SignIn = ({ onClose }: SignInProps) => {
     <div className="fixed inset-0 bg-opacity-60 flex items-center justify-center z-50">
       <Card className="w-full max-w-md rounded-lg bg-white p-8 shadow-md text-black">
         <CardHeader className="text-center relative">
-          {onClose && (
-            <button
-              onClick={onClose}
-              className="absolute top-0 right-0 mt-2 mr-2 text-gray-500 hover:text-gray-700 text-lg"
-              aria-label="Close"
-            >
-              ✕
-            </button>
-          )}
-
           <div className="flex justify-center mb-4">
             <Image
               src="/image/logo.png"
@@ -59,7 +45,6 @@ const SignIn = ({ onClose }: SignInProps) => {
               priority
             />
           </div>
-          {/* <h2 className="text-xl font-semibold text-gray-800">Login</h2> */}
         </CardHeader>
 
         <form onSubmit={handleSubmit}>

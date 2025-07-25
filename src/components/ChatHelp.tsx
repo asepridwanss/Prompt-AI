@@ -24,7 +24,7 @@ const ChatHelp = () => {
     context: string;
   }>>({});
   const [activeTitle, setActiveTitle] = useState<string | null>(null);
-  const [showAll, setShowAll] = useState(false); // untuk toggle "More"
+  const [showAll, setShowAll] = useState(false);
 
   useEffect(() => {
     const fetchPedoman = async () => {
@@ -37,14 +37,15 @@ const ChatHelp = () => {
           const key = d.poinBab.toLowerCase().trim();
           mapped[key] = {
             title: d.poinBab,
-            role: "Posisikan Anda sebagai Asisten Akademik yang ahli dalam penulisan skripsi mahasiswa FTI UNIBBA.",
-            instruction: "Sesuaikan teks agar sesuai dengan format dan bahasa penulisan skripsi FTI UNIBBA. Pastikan hasil koreksi berbahasa indonesia, jika ada istilah berbahasa inggris miringkan output hurufnya. Seuaikan format penulisannya seperti contoh yang diberikan.",
+            role: "Posisikan diri Anda sebagai Asisten Akademik yang ahli dalam penulisan skripsi mahasiswa FTI UNIBBA.",
+            instruction: `Sesuaikan teks agar sesuai dengan format dan bahasa penulisan skripsi FTI UNIBBA. Fokuskan pada: 1. Tata bahasa Indonesia yang baik dan benar, 2. Gaya penulisan ilmiah sesuai standar skripsi,3. Penyesuaian format penulisan sesuai pedoman. Catatan:- Jangan mengubah atau menambahkan isi/konten penelitian.- Gunakan huruf *miring* untuk istilah berbahasa Inggris. - Jangan menerjemahkan istilah asing yang umum dalam konteks ilmiah.`,
             examples: Array.isArray(d.contoh) ? d.contoh : [d.contoh],
             context: d.konteks || "",
           };
           titles.push(d.poinBab);
         }
       });
+
 
       setPedomanMap(mapped);
       setPedomanList(titles);
@@ -74,40 +75,40 @@ const ChatHelp = () => {
     }
   };
 
-  // Tentukan daftar yang akan ditampilkan (5 pertama jika belum klik "more")
   const displayedList = showAll ? pedomanList : pedomanList.slice(0, 5);
 
   return (
-    <div className="w-full flex flex-col md:flex-row md:items-center gap-3 flex-wrap">
-      {displayedList.map((title, index) => {
-        const isActive = title === activeTitle;
-        return (
-          <div
-            key={index}
-            onClick={() => handleClick(title)}
-            className={`flex items-center gap-2 border px-4 py-2 rounded-full cursor-pointer duration-300 ease-in-out group
-              ${isActive ? "border-blue-500 bg-blue-100" : "border-primary-foreground/10 hover:bg-primary-foreground/10"}
-            `}
-          >
-            <span style={{ color: "#2483DF" }} className="text-xl">
-              <MdEditNote />
-            </span>
-            <p className="text-sm font-medium tracking-wide">{title}</p>
-          </div>
-        );
-      })}
+    <div className="w-full flex justify-center">
+      <div className="flex flex-wrap justify-center gap-3 max-w-5xl px-4">
+        {displayedList.map((title, index) => {
+          const isActive = title === activeTitle;
+          return (
+            <div
+              key={index}
+              onClick={() => handleClick(title)}
+              className={`flex items-center gap-2 border px-4 py-2 rounded-full cursor-pointer duration-300 ease-in-out group
+                ${isActive ? "border-blue-500 bg-blue-100" : "border-primary-foreground/10 hover:bg-primary-foreground/10"}
+              `}
+            >
+              <span style={{ color: "#2483DF" }} className="text-xl">
+                <MdEditNote />
+              </span>
+              <p className="text-sm font-medium tracking-wide">{title}</p>
+            </div>
+          );
+        })}
 
-      {/* Tombol "Lainnya"/"Tutup" jika item lebih dari 5 */}
-      {pedomanList.length > 5 && (
-        <div
-          onClick={() => setShowAll(!showAll)}
-          className="flex items-center gap-2 border px-4 py-2 rounded-full cursor-pointer border-primary-foreground/10 hover:bg-primary-foreground/10 duration-300"
-        >
-          <span className="text-sm font-medium tracking-wide text-blue-500">
-            {showAll ? "Tutup" : `+${pedomanList.length - 5} lainnya`}
-          </span>
-        </div>
-      )}
+        {pedomanList.length > 5 && (
+          <div
+            onClick={() => setShowAll(!showAll)}
+            className="flex items-center justify-center gap-2 border px-4 py-2 rounded-full cursor-pointer border-primary-foreground/10 hover:bg-primary-foreground/10 duration-300"
+          >
+            <span className="text-sm font-medium tracking-wide text-blue-500">
+              {showAll ? "Tutup" : `+${pedomanList.length - 5} lainnya`}
+            </span>
+          </div>
+        )}
+      </div>
     </div>
   );
 };

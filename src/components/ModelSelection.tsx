@@ -7,7 +7,7 @@ const fetchModels = () => fetch("/api/engines").then(res => res.json());
 const ModelSelection = () => {
   const { data: models } = useSWR("models", fetchModels);
   const { data: model, mutate } = useSWR("model", {
-    fallbackData: "gpt-3.5-turbo",
+    fallbackData: "gpt-4o",
   });
 
   return (
