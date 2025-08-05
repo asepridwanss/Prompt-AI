@@ -5,13 +5,14 @@ import { Message } from "@/type";
 import { addDoc, collection, serverTimestamp } from "firebase/firestore";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
-import { FormEvent, useEffect, useState } from "react";
+import { FormEvent, useEffect, useRef, useState } from "react";
 import toast from "react-hot-toast";
 import { ImArrowUpRight2 } from "react-icons/im";
-import { useAtomValue } from "jotai";
+import { useAtomValue, useSetAtom } from "jotai";
 import { selectedPedomanAtom } from "@/lib/store/pedomanAtom";
 import useSWR from "swr";
 import ModelSelection from "./ModelSelection";
+import ChatHelp from "./ChatHelp";
 
 const ChatInput = ({ id }: { id?: string }) => {
   const chatId = id;
@@ -22,15 +23,24 @@ const ChatInput = ({ id }: { id?: string }) => {
   const { data: model } = useSWR("model", { fallbackData: "gpt-4o" });
 
   const selectedPedoman = useAtomValue(selectedPedomanAtom);
+  const resetSelectedPedoman = useSetAtom(selectedPedomanAtom);
 
   const userEmail = session?.user?.email || "unknown";
   const userName = session?.user?.name || "unknown";
+
+  const textareaRef = useRef<HTMLTextAreaElement>(null); // Ref untuk textarea
 
   useEffect(() => {
     if (status !== "loading" && !session) {
       router.push("/signin");
     }
   }, [session, status, router]);
+
+  useEffect(() => {
+    if (chatId) {
+      resetSelectedPedoman(null);
+    }
+  }, [chatId, resetSelectedPedoman]);
 
   const sendMessage = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -57,7 +67,7 @@ ${selectedPedoman.context}
 
 Teks yang ingin disesuaikan:
 ${prompt}`
-      : prompt;
+      : `#USE_PEDOMAN_TXT\n${prompt}`;
 
     const message: Message = {
       text: prompt.trim(),
@@ -75,20 +85,34 @@ ${prompt}`
       let chatDocumentId = chatId;
 
       if (!chatId) {
-        const docRef = await addDoc(collection(db, "chatsRequests", userEmail, "chats"), {
-          userId: userEmail,
-          createdAt: serverTimestamp(),
-        });
+        const docRef = await addDoc(
+          collection(db, "chatsRequests", userEmail, "chats"),
+          {
+            userId: userEmail,
+            createdAt: serverTimestamp(),
+          }
+        );
         chatDocumentId = docRef.id;
         router.push(`/chat/${chatDocumentId}`);
       }
 
       await addDoc(
-        collection(db, "chatsRequests", userEmail, "chats", chatDocumentId!, "messages"),
+        collection(
+          db,
+          "chatsRequests",
+          userEmail,
+          "chats",
+          chatDocumentId!,
+          "messages"
+        ),
         message
       );
 
       setPrompt("");
+      if (textareaRef.current) {
+        textareaRef.current.style.height = "auto"; // Reset tinggi textarea
+      }
+
       const notification = toast.loading("PorsiAI is thinking...");
 
       await fetch("/api/askchat", {
@@ -125,6 +149,7 @@ ${prompt}`
         className="bg-white/10 rounded-xl flex items-end gap-2 px-4 py-2 w-full max-w-3xl border border-black overflow-hidden min-w-0"
       >
         <textarea
+          ref={textareaRef}
           value={prompt}
           onChange={(e) => setPrompt(e.target.value)}
           onInput={(e) => {
@@ -147,10 +172,11 @@ ${prompt}`
         </button>
       </form>
 
+      {/* ChatHelp di bawah textfield tanpa menggeser ke atas */}
       {id && (
-        <p className="text-xs mt-2 font-medium tracking-wide text-center text-gray-600">
-          PorsiAI can make mistakes. Check important info.
-        </p>
+        <div className="w-full mt-2 max-w-3xl overflow-hidden">
+          <ChatHelp />
+        </div>
       )}
 
       <div className="w-full md:hidden mt-2">

@@ -1,0 +1,473 @@
+  BAB  5  
+SISTEMATIKA PENULISAN SKRIPSI  
+ 
+Skripsi  yang dibuat merupakan artikel jurnal, yang terdiri atas tiga bagian yaitu BAGIAN AWAL, BAGIAN INTI dan BAGIAN AKHIR, yang ditulis secara narasi dan meminimalkan penulisan butir. Penulisan butir hanya digunakan untuk menjelaskan urutan langkah atau tahap -tahap.  
+ 
+5.1 BAGIAN AWAL  
+Bagian awal memuat halaman sampul depan, halaman judul, halaman pengesahan, halaman pernyataan, dan halaman hak bebas royalti dan 
+publikasi.  
+a. Halaman  Sampul  
+Sampul skripsi memuat judul, penulisan, lambang UNIBBA, nama dan Nomor Pokok Mahasiswa  disingkat NPM, nama program studi, nama fakultas, nama Universitas dan tahun penyelesaian . 
+b. Halaman Judul  
+Halaman judul berisi tulisan dan gambar yang sama dengan halaman sampul, tapi dicetak di atas kertas putih.  
+c. Halaman Persetujuan  Pembimbing  
+Halaman ini memuat bukti persetujuan administratif dan akademik dari pembimbing utama , pembimbing pendamping , dan mengetahui ketua program studi.  
+d. Halaman  Pengesahan  Penguji  
+Halaman i ni memuat bukti pengesahan admi nistrasi dan akademik oleh ketua Prodi  dan tim penguji. Unsur -unsur yang ada dalam halaman ini 
+adalah judul skripsi , nama penulis, pernyataan pengesahan tim penguji dan ketua program studi.  
+1) Halaman  Pengesahan Lembaga  
+Halaman ini memuat pengesahan dari Dekan dan Ketua Program Studi . 
+2) Halaman Pernyataan  
+Halaman pernyataan memuat pernyataan bahwa skripsi tersebut merupakan karya asli  mahasiswa yang bersangkutan.  
+e. Abstrak  
+Untuk abstract seluruh teks menggunakan  huruf miring .  Panjang abstrak dan abstract laporan skripsi ditetapkan minimal berjumlah 250 kata dan maksimal berjumlah 500 kata. Abstrak dan abstract terdiri 3 paragraph yang terdiri dari Pendahuluan (20%), Pembahasan  (50%), Hasil dan Kesimpulan (30%).  
+f. Kata Pengantar  
+Kata pengantar berisi informasi secara garis besar mengenai maksud penulisan skripsi serta ucapan terima kasih kepada pihak -pihak yang telah berjasa dalam penulisan skripsi . 
+g. Daftar Isi  
+Daftar isi memuat abstrak, kata pengantar, daftar isi, daftar tabel/daftar gambar/daftar lampiran, judul bab dan subbab, serta daftar pustaka.  
+h. Daftar Tabel  
+Apabila di dalam skripsi terdapat beberapa tabel perlu dibuat daftar tabel yang memuat nomor urut dan judul tab el beserta nomor halaman tabel.  
+i. Daftar Gambar  
+Apabila ada, daftar gambar berisi nomor urut, judul gambar, beserta nomor halaman di tempat gambar tersebut disajikan. .  
+j. Daftar Lampiran  
+Apabila ada, daftar lampiran berisi nomor urut, nama lampiran, beserta nomor halaman lampiran disajikan.  
+ 
+5.2 BAGIAN UTAMA  
+a. BAB PENDAHULUAN  
+1) Latar belakang ; Latar belakang masalah menjelaskan rasional atau justifikasi penelitian dilihat dari latar belakang pemilihan permasalahan yang diteliti. Paragraf ini sering disebut sebagai motivator atau pendorong dilakukannya kegiatan observasi, praktek kerja, atau penelitian dalam rangka penyelesaian skripsi . Hal ini bisa seperti ganda, yaitu : (1) sebagai pendorong bagi mahasiswa untuk melaksanakan kegiatannya, dan (2) sebagai pendorong bagi orang lain untuk membaca bagian - bagian selanjutnya dari laporan skripsi ini; berarti uraian pada paragraf ini harus da pat menggugah minat baca. Pada paragraf ini perlu pula diuraikan sejauh mana kegiatan kerja itu diobservasi, dilakukan, atau masalah itu diteliti.  
+• latar belakang masalah yang perlu diperhatikan adalah sebagai berikut :  
+• sinyalemen kegiatan kerja yang akan  diobservasi/dilakukan, atau masalah yang akan diteliti;  
+• relevansi kegiatan kerja yang akan diobservasi/dilakukan, atau masalah yang akan diteliti, dengan bidang terapan ilmu yang dipelajari;  
+• keserasian pendekatan yang digunakan sesuai dengan bidang terapan ilmu yang dipelajari; dan  
+• gambaran kegunaan hasil observasi, atau penelitian.  
+Kalau ada mahasiswa melakukan observasi terhadap kegiatan kerja, maka pengungkapan bagian ini dapat didasarkan atas pertanyaan -pertanyaan sebagai berikut :  
+• Apa yang telah di ketahui, teoritis maupun faktual, dari kegiatan kerja yang akan diobservasi/dilakukan?  
+• Adakah permasalahan yang perlu diobservasi, atau adakah permasalahan yang menarik sehingga mahasiswa memilihnya untuk meneliti?  
+• Bagian mana yang menarik untuk diobserva si, atau bagian mana yang menarik bagi mahasiswa untuk melakukan observasi? mengapa bagian itu menarik?  
+• Apakah mungkin secara teknis meningkatkan kualitas dan efisiensi kegiatan kerja itu?  
+ 
+Apabila mahasiswa akan melakukan penelitian, maka pengungkapan bagian ini dapat didasarkan atas pertanyaan -pertanyaan berikut :  
+• Apa yang telah diketahui, teoritis maupun faktual, dari masalah yang diteliti?  
+• Adakah permasalahan di situ; apakah ada "keraguan" yang terdapat pada permasalahan itu?  
+• Bagian man a yang menarik dari masalah yang diteliti?  
+• Apakah mungkin secar a teknis masalah itu diteliti?  
+ 
+2) Rumusan masalah ; Perumusan masalah dinyatakan dalam kalimat tanya atau pernyataan yang lugas dan jelas.  Rumusan  masalah adalah aspek abstraksi dan pemilihan yang  tepat terhadap aspek kegiatan kerja yang akan diobservasi/dilakukan atau aspek masalah yang akan diteliti. Dengan perkataan lain, rumusan  masalah merupakan inti fenomen a aspek kegiatan kerja yang akan diobservasi/dilakukan atau permasalahan yang akan diteliti.  
+3) Batasan masalah ; Pembatasan masalah harus dibuat dengan alasan ilmiah sesuai dengan ruang lingkup penelitian yang akan dilakukan dengan mempertimbangkan aspek -aspek  metodologis, kelayakan di lapangan, dan keterbatasan yang ada pada penulis tanpa mengorbankan kebermak -naan arti, konsep, atau judul yang diteliti  
+4) Tujuan Penelitian ; Tujuan penelitian menyatakan target penelitian yang akan dicapai yang merupakan penyelesa ian, permasalahan yang diajukan.  
+5) Metodologi Penelitian ; Menjelaskan secara singkat metode yang digunakan untuk mendapatkan data yang diperlukan serta Metode yang digunakan dalam penyelesaian masalah penelitian.  
+6) Sistematika Penulisan ; berisi secara sistemat is keseluruhan penulisan skripsi . 
+
+b. BAB TINJAUAN PUSTAKA  
+1) Landasan  Teori
+Penelitian relevan yang menunjukkan bahwa skripsi yang ditulis terkait dengan hasil penelitian terdahulu dan yang dituliskan cukup abstraksi.  (tinjauan penelitian minimal  3 penelitian) . 
+2) Dasar Teori  
+Menjelaskan teori yang relevan dengan kegiatan yang diobservasi/dilakukan atau masalah yang diteliti. Tinjauan pustaka ini dapat pula berisi uraian tentang data sekunder yang diperoleh dari publikasi baku, publikas ilmiah, atau hasil penelitian pihak lain y ang dapat dijadikan pertimbangan dan kaidah -kaidah teoritis serta asumsi -asumsi yang memungkinkan terjadinya penalaran untuk mengkaji kegiatan kerja yang diobservasi/dilakukan atau menjawab masalah yang diteliti.  
+Pada bab ini dimungkinkan mengajukan lebih dari satu teori atau data sekunder untuk membahas kegiatan kerja yang dilakukan atau permasalahan yang menjadi topik skripsi, sepanjang teori -teori dan  data sekunder itu berkaitan dan tidak kontradiktif.  
+ 
+c. BAB METODOLOGI  
+1) Kerangka Pikir  
+Kerangka pikir berisi gambar an pola hubungan antar variabel atau kerangka konsep yang akan digunakan untuk menjelaskan masalah yang diteliti, disusun berdasarkan kajian teoretik.  
+2) Deskripsi  
+Penjelasan langkah -langkah pada kerangka pikir  
+ 
+d. BAB ANALISIS, PERANCANGAN DAN HASIL  
+BIDANG INFORMATIKA  
+ANALISIS  
+1) Analisis Masalah  
+Berisi penjelasan mengenai bagian -bagian yangterkait dalam sistem  dan sebab -sebab terjadi suatu permasalahan.  
+ 
+2) Analisis Software  
+Berisi kebutuhan software Minimum  untuk membuat aplikasi yang disajikan dalam bentuk table.  
+ 
+3) Analisis Pengguna  
+Contoh:  
+Penganalisaan pengguna adalah yang berkaitan dengan yang akan memakai game, pengguna game adalah anak usia Taman Kanak -Kanak yaitu 4 -6 tahun, agar game ini nantinya bisa memberikan suatu kepuasan, kesenangan, dan tentunya ilmu pengetahuan ketika game dimainkan oleh pengguna, maka strategi yang akan diterapkan dalam game ini adalah dilihat dari sisi User Interface  dan Fitur -fitur yang diterapkan dalam game tersebut.  
+ 
+4) User Interface  
+Contoh :  
+User Interface dari game sangat berpengaruh terhadap minat pemain dalam menggunakannya. Hal ini mencakup perangkat yang digunakan sebagai piranti masukan dan keluaran dari game. Karena game yang dibuat dit ujukan untuk anak, maka user interface game juga harus menyesuaikan dengan kepribadian anak. Kecendrungan dari kepribadian anak adalah anak menyukai bentuk huruf -huruf yang menarik, a nimasi gambar, warna -warna yang cerah, serta background perpaduan antara hijau rerumputan dan batu -batuan. Maksud dan tujuan memberikan tampilan tersebut agar anak dapat menyukai dan tidak bosan dalam menjalankan game serta memainkannya.  Selain yang tersebut di atas, penggunaan gambar serta unsur multimedia lain seperti suara sangat berperan dalam pembelajaran. Karena anak belum dapat membaca kalimat yang panjang, maka tampilan pada game semi nimal mungkin menggunakan kalimat yang sederhana  serta gambar agar anak dapat mengerti maksudnya. 
+Komunikasi terhadap anak dilakukan melalui penggunaan gambar beserta suara yang menjelaskan halhal apa saja yang harus anak lakukan selama permainan. Seperti misalnya apabila anak diberikan misi untuk menyu sun kata dari A -Z. Jadi setiap instruksi disampaikan secara lisan dan tulisan.  Untuk perangkat masukan digunakan mouse agar anak dapat leluasa menggerakan petunjuk mouse untuk memilih huruf -huruf yang dimaksud. Dengan membatasi pemakaian keypad, anak tida k terlalu rumit menguasai kontrol permainan.  
+ 
+5) Fitur -Fitur  
+Contoh :  
+Fitur -fitur yang digunakan dalam game ini dimaksudkan aga anak dapat dengan mudah memainkan serta tidak bosan dalam memainkannya, ditunjang lagi dengan fungsi timer yang akan menantang anak agar dapat dengan cepat memilih huruf yang dimaksud.  
+Fungsi timer  tersebut akan mempengaruhi hadiah yang akan didapatkan oleh anak, karena kecendrungan anak biasanya diberikan hadiah agar lebih bersemangat, seperti bila sesuai target waktu, maka akan mendapatkan bintang emas, bila tidak sesuai maka akan mendapatkan bint ang perak. Yang terpenting dalam bagian fitur ini adalah:  
+• Adanya tingkatan atau level permainan, tentunya dengan kesulitan yang beringkat. Keberadaan level ini dapat menjadikan user penasaran akan tantangan atau level selanjutnya, sehingga anak selalu beru saha sebaik mungkin dalam melewati setiap tantangan atau level.  
+• Pengenalan huruf -huruf dilakukan dengan cara mengurutkan susunan huruf A -Z. Pengenalan juga dilakukan dengan menampilkan objek -objek yang diawali oleh huruf yang 
+bersangkutan dengan cara menjo dohkan.  
+• Diantara satu level, terdapat beberapa sub level yang mewakili target yang akan dicapai. Untuk dapat mencapai level berikutnya, pemain harus menyelesaikan target. Dengan ini, diharapkan pemain dapat menguasai beberapa huruf sekaligus dalam satu level. 
+• Pemain tidak hanya mengenal huruf, namun dilatih juga untuk membentuk kata yang sesuai soal berupa objek yang ditanyakan. Disediakan pula hadiah berupa bintang emas dan perak bila menyelesaikan rule. Jadi diharapkan agar permainan ini dapat menimbulkan  unsur kesenangan dan keinginan untuk terus 
+dilanjutkan hingga selesai.  Dari hasil yang didapat dari hal di atas paduan antara User Interface dengan fitur game perlu dibentuk untuk menciptakan produk yang dapat memberikan manfaat luas dan nyata bagi masyar akat.  
+ 
+6) Analisis Data  
+Penganalisaan data berupa data masukan, keluaran, dan proses untuk penunjang bagi sistem informasi yang akan dibuat . 
+ 
+7) Analisis Biaya  
+Berisi analisis biaya untuk pengembangan sistem. Diantaranya, biaya analisis untuk analis, programmer, spesifikasi perangkat keras , perangkat lunak  dan alat -alat lain yang mungkin dibutuhkan yang disajikan dalam bentuk tabel.  
+ 
+PERANCANGAN  
+1) Diagram Arus Data (DAD) - UML  
+2) Entity Relasional Diagram (ERD)  
+3) Normalisasi  
+• Normalisasi Pertama (NF -1) 
+• Normalisasi Ke -2 (NF -2) 
+• Normalisasi Ke -3 (NF -3) 
+4) Struktur Tabel  
+5) Desain ; Menjelaskan tentang tampilan program secara keseluruhan misal terdiri dari Menu, Sub Menu, Splash, dan lain -lain. 
+ 
+ 
+BIDANG SISTEM INFORMASI  
+ANALISIS  
+1) Tata Kelola Perusahaan/Instansi  
+Dilihat dari sisi manajerial suatu perusahaan dan diceritakan secara deskriptif yang dapat menjawab:  
+• Siapa (bagian) apa saja yang terlibat di perusahaan tersebut (dilihat dari sisi yang sedang di bahas)? dan hal -hal apa saja yang dikerjakan dari bagian tersebut?  
+• Bagaimana pimpinan mengelola perusahaan/instansi tersebut?  
+• Struktur Organisasi ditampilkan  
+ 
+2) Analisis Sistem  
+Analisis sistem yang sedang berjalan pada perusahaan atau tempat penelitian dimana peneliti mengambil data . 
+ 
+3) Analisis Masalah  
+Untuk mengidentifikasi masalah, maka harus melakukan analisis terhadap kinerja,  informasi, ekonomi, keamanan aplikasi, efisiensi dan pelayanan pelanggan. Panduan ini dikenal dengan PIECES Analysis ( Performance, Information, Economic, Control, Effi ciency, Services ). Dari analisis ini biasanya didapatkan beberapa masalah dan akhirnya dapat menemukan masalah utamanya . 
+ 
+4) Analisis Kebutuhan Sistem  
+Menguraikan analisis kelayakan sistem baru jika diimplementasikan di objek penelitian.  
+ 
+5) Analisis Sistem Penunjang Keputusan  
+Dilihat dari kebutuhan sistem informasi dalam mendukung keputusan bagi manager.  
+• Apa pentingnya sistem informasi dalam perusahaan/instansi tersebut dalam mendukung keputusan bagi pimpinan?  
+• Hal-hal apa saja yang disajikan dalam sistem informasi tersebut dalam mendukung k eputusan bagi pimpinan?  
+ 
+6) Analisis Data Penunjang Keputusan  
+Penganalisaan data berupa data masukan, proses, dan keluaran untuk penunjang bagi pimpinan untuk melakukan suatu keputusan.  
+ 
+7) Analisis Kebutuhan/Alat  
+• Software  
+• Hardware  
+ 
+8) Analisis Biaya  
+Berisi analisis biaya untuk pengembangan sistem. Diantaranya, biaya analisis untuk analis, programmer, spesifikasi perangkat keras, 
+perangkat lunak dan alat -alat lain yang mungkin dibutuhkan yang disajikan dalam bentuk tabel  
+  
+PERANCANGAN  
+1) Rancangan DAD - UML  
+2) Entity Relasional Diagram (ERD)  
+3) Normalisasi  
+• Normalisasi Pertama (NF -1) 
+• Normalisasi ke -2 (NF -2) 
+• Normalisasi ke -3 (NF -3) 
+4) Struktur Tabel  
+5) Desain  
+• Capture desain sistem informasi per modul yangtelah dibuat.  
+• Keterangan per modul  
+6) Listing Program  
+Berisi kode program yang disajikan per modul yang dilengkapi 
+dengan keterangan di atasnya.  
+ 
+Contoh:  
+ 
+// Input Data Pegawai  
+ 
+Disini ditulis code program  
+ 
+e. IMPLEMENTASI  DAN PENGUJIAN  
+TEKNIK INFORMASIKA  
+HASIL  
+1) Listing Program; berisi kode -kode program yang disajikan per modul  
+2) Implementasi Sistem; Tempat dan Waktu Implementasi  
+3) Spesifikasi Sistem  
+• Perangkat Keras; Berisi penjelasan spesifikasi minimum  h/w untuk menjalankan program yang disajikan dalam bentuk table  
+• Perangkat Lunak; Berisi penjelasan mengenai spesifikasi minimum  s/w untuk menjalankan program yang disajikan dalam bentuk table  
+4) Instalasi Sistem  
+Berisi penjelasan mengenai langkah -langkah instalasi sistem yang terdiri dari:  
+• Instalasi Aplikasi  
+• Instalasi Database  
+5) Menjalankan Sistem  
+Berisi penjelasan mengenai jalannya sistem yang disajikan per modul.  
+ 
+SISTEM INFORMASI  
+HASIL  
+Dilihat dari sisi kelayakan operasional dinilai dengan menggunakan kerangka kerja PIECES yang dikembangkan oleh James Wetherb, yang bertujuan untuk mengukur apakah sistem yang akan dikembangkan dapat dioperasikan dengan baik atau tidak di dalam organisasi, meliputi:  
+1) Tampilan  
+Program Tampilan program terdiri dari print screen dari tampilan input, output dan proses.  
+2) Hasil Pengujian  
+Program Hasil pengujian program menampilkan hasil output dari sebuah input data pada aplikasi yang telah siap  
+3) HASIL  (output)  
+Dilihat dari sisi kelayakan operasional dinilai dengan menggunakan kerangka kerja PIECES yang dikembangkan oleh James Wetherb, yang bertujuan untuk mengukur apakah sistem yang akan dikembangkan dapat dioperasikan dengan baik atau tidak di dalam organisasi . 
+ 
+f. KESIMPULAN  
+ 
+5.3 BAGIAN AKHIR  
+a. DAFTAR PUSTAKA  
+b. LAMPIRAN  
+
+ BAB 6  
+TATA CARA PENULISAN SKRIPSI  
+ 
+ 
+6.1 Bahan yang digunakan  
+Kertas yang digunakan untuk mengetik laporan SKRIPSI  adalah kertas HVS 80 gram ukuran A4 (21.0 cm x 29.7 cm) warna putih. Untuk sampul luar (kulit luar) ditetapkan sampul keras (hard cover). Bahan yang digunakan adalah karton buffa lo atau linen, dengan warna biru . Tiap bab diberi pembatas dengan kertas dors lah (doorslag); dengan warna biru, sesuai dengan warna sampul luar.  
+6.2 Pengetikan  
+Layout kertas, untuk pengetikan naskah laporan SKRIPSI :  
+• pinggir atas   : 3 cm dari tepi  
+• pinggir kiri   : 4 cm dari tepi  
+• pinggir bawah  : 3 cm dari tepi  
+• pinggir kanan  : 3 cm dari tepi  
+ 
+6.3 Cara Pengetikan  
+Apabila menggunakan program lain, lay -out pengetikannya harus disesuaikan agar memenuhi ketentuan di atas.  
+a. Pengetikan hanya dilakukan pada satu muka kertas, tidak bolak balik.  
+b. Jenis huruf yang digunakan adalah  Times New Roman  ukuran 12 . 
+c. Tinta pada komputer, yang digunakan berwarna hitam untuk tulisan dan diperbolehkan menggunakan tinda warna (bila diperlukan).  
+d. Perbanyakan hasil cetak , dilakukan dengan fotokopi sejumlah yang ditetapkan Program masing -masing. Bahan yang digunakan adalah 
+kertas fotokopi ukur an A4.  
+6.4 Spasi  
+a. Jarak antara baris yang satu dengan baris berikutnya adalah satu setengah spasi.  
+b. Jarak antara penunjuk bab (BAB I) dengan tajuk bab (PENDAHULUAN) adalah dua spasi.  
+c. Jarak antara tajuk bab (judul bab) dengan teks pertama yang ditulis, atau antara tajuk bab dengan tajuk anak bab adalah empat spasi.  
+d. Jarak antara tajuk anak bab dengan baris pertama teks adalah dua spasi, dan alinea teks diketik menjorok ke dalam gunakan TAB .  
+e. Jarak antara baris akhir teks dengan tajuk anak bab berikutnya adalah empat spasi.  
+f. Jarak antara teks dengan tabel, gambar, grafik, diagram, atau judulnya adalah tiga spasi.  
+g. Alinea baru diketik menjorok ke dalam gunakan TAB  dari margin kiri teks.  
+h. Penunjuk bab dan tajuk bab sel alu mulai  dengan halaman baru.  
+i. Jarak spasi dalam pengetukan abstrak adalah satu setengah spasi.  
+j. Jarak antara alinea yang satu dengan alinea yang lain adalah satu setengah spasi.  
+k. Alinea baru diketik menjorok ke dalam lima kctukan dari margin kiri teks.  
+6.5 Kutipan  
+Kutipan langsung (bisa dalam bahasa aslinya atau terjemahannya), yang terdiri tidak lebih dari tiga baris, dimasukkan di dalam teks dengan jarak tetap dua spasi, diikuti dengan nama penulis, tahun, dan halaman).  Kutipan langsung (bisa dalam bahasa aslinya  atau terjemahannya), yang terdiri dari empat baris atau lebih, diketik terpisah dari teks, dengan jarak satu spasi dan menjorok masuk gunakan TAB  dari margin kiri teks, diikuti nama penulis, tahun, dan halaman.  Jarak antara baris akhir teks dengan kutipan  langsung tersebut pada butir 2 spasi , dan jarak antara baris akhir kutipan langsung itu dengan baris awal teks  berikutnya adalah dua spasi. Penggunaan gagasan atau pemikiran seseorang penulis buku, artikel, dsb, walaupun disusun dengan menggunakan kata -kata sendiri, harus pula dicantumkan namanya (apabila perlu dapat pula dicantumkan judul karya tulisnya) dan tahun buku/artikel itu ditulis, sesuai dengan kebiasaan penulisan pada masing -masing disiplin ilmu.  
+
+6.6 Tajuk  
+Tiap tajuk diketik di halaman baru denga n huruf kapital, ditempatkan di tengah, dan tidak diberi garis bawah. 
+Tajuk yang dimaksud adalah :  
+ABSTRAK  
+ABSTRACT  
+KATA PENGANTAR  
+DAFT AR ISI  
+DAFTAR GAMBAR  
+DAFTAR GRAFIK  
+DAFTAR DIAGRAM  
+DAFTAR LAMPIRAN  
+ BAB I  : PENDAHULUAN  
+BAB II  : TINJAUAN PUSTAKA  
+BAB III  : METODOLOGI  
+BAB IV  : ANALISIS DAN PERANCANGAN  
+BAB V  : IMPLEMENTASI DAN PENGUJIAN   
+BAB V I : KESIMPULAN DAN SARAN  
+DAFTAR PUSTAKA  
+LAMPIRAN  
+RIWAYAT HIDUP (kalau perlu)  
+ 
+6.7 Abstrak dan Abstract  
+a. Pengetikan Abstract  
+Judul ABST RACT dan seluruh teks diketik d enngan huruf miring . 
+b. Panjang dan Isi Abstrak dan Abstract  
+Panjang abstrak dan abstract laporan SKRIPSI  ditetapkan minimal berjumlah 250 kata dan maksimal berjumlah 500 kata. Abstrak dan abstract terdiri 3 paragraph  yang terdiri dari Pendahuluan (20%), Pembahasan (50%), Hasil dan Kesimpulan (30%) .  
+ 
+6.8 Penomoran Bab, Anak Bab, d an Paragraf  
+a. Penomoran bab pada penunjuk bab menggunakan angka Romawi kapital, pengetikannya diletakkan di tengah.  
+b. Penomoran anak bab dan paragraf men ggunakan angka, diketik pada margin sebelah kiri.  
+c. Penomoran anak bab dan paragraf disesuaikan dengan nomor bab.  
+ 
+6.9 Penomoran Halaman  
+a. Halaman Bagian Awal  
+1) Penomoran halaman bagian awal, dari halaman 'judul bagian dalam’ sampai dengan halaman 'daftar lampiran'. Menggunakan angka Romawi kecil.  
+2) Halaman 'judul bagian dalam' dan halaman 'persetujuan pembimbing' tidak  diberi nomor urut halaman, tetapi diperhitungkan sebagai halaman i dan halaman ii (nomor halaman tersebut tidak diketik).  
+3) 'Halaman abstrak' sampai dengan 'halaman daftar lampiran' diberi nomor dengan angka Romawi kecil, yang merupakan kelanjutan dari halaman 'judul bagian dalam' dan halaman 'persetujuan pembimbing.'  
+4) Nomor halaman diletakkan pada lajur bawah tengah .  
+ 
+b. Halaman  Bagian Inti   
+Pemberian nomor pada bagian inti laporan SKRIPSI  ditetapkan seperti di bawah ini.  
+1) Penomoran halaman bagian inti, mulai dari BAB I : PENDAHULUAN sampai dengan BAB VI : KESIMPULAN DAN SARAN , menggunakan angka ; 
+2) Pada tiap halaman yang bertajuk, mulai dari BAB I : PENDAHULUAN sampa i dengan BAB V I : KESIMPULAN DAN SARAN, nomor halaman diletakkan pada lajur bawah persis di tengah tengah ; 
+3) Nomor halaman diletakkan pada lajur atas sebelah kanan, dan angka terakhir nomor halaman itu lurus dengan margin kanan.  
+ 
+c. Halaman Bagian Akhir  
+Pemberian nomor pada bagian akhir laporan SKRIPSI  dilakukan sebagai berikut :  
+1) Penomoran bagian akhir, mulai dari DAFTAR PUSTAKA sampai dengan RIWAYAT HIDUP (kalau ada), menggunakan angka.  
+2) Pada tiap halaman yang bertajuk, mulai dari DAF TAR PUSTAKA sampai dengan RIWAYAT HIDUP (kalau ada), nomor halaman diletakkan pada lajur bawah persis di tengah -tengah . 
+ 
+6.10 Sampul Luar/Kulit Luar  
+Penulisan dan penempatan judul laporan SKRIPSI , anak judul (kalau ada), tulisan SKRIPSI , nama dan NPM  mahasiswa, simbol Universitas Bale Bandung, program strata 1, Program Studi, Fakultas , nama Univers itas, kota dan tahun penyusunan laporan SKRIPSI , pada sampul luar dan sampul dalam, mengikuti ketentuan berikut:  
+ 
+Judul dan Anak Judul  
+a. Judul laporan SKRIPSI  ditulis di baris paling atas, dengan huruf kapital semua, dengan jarak dari tepi atas kertas sekur ang-kurangnya 4 (empat) cm. 
+b. Jenis huruf yang digunakan adalah Times New Romans, dengan tinggi huruf karakter 14 dan tebal.  
+c. Judul yang panjang ditulis menjadi dua baris atau lebih, dengan pemotongan judul yang logis, sesuai dengan kaidah Bahasa Indonesia.  
+d. Jarak antara kedua ba ris judul satu setengah spasi.  
+e. Anak judul (kalau ada) ditulis di bawah judul, dengan huruf kapital semua yang lebih kecil dari huruf judul (yaitu karakter 12), dengan diberi jarak dari judul sekitar satu setengah spasi dari baris jud ul yang paling bawah.  
+f. Anak judul yang panjang ditulis menjadi dua baris atau lebih, dengan pemotongan judul yang logis, sesuai dengan kaidah Bahasa Indonesia.  
+g. Jarak antara kedua baris judul diatur satu setengah spasi.  
+h. Judul maupun anak judul tidak di akhiri dengan tanda titik (.).  
+ 
+Tulisan SKRIPSI   
+Tulisan SKRIPSI  ditulis dengan huruf kapital semua, diletakkan di tengah, dengan jenis dan besar huruf yang sama dengan anak judul yaitu Times New Romans dengan karakter 12 dan tebal.  Letak tulisan SKRIPSI  sekitar dua setengah cm di bawah anak judul.  
+  
+Di bawah tulisan SKRIPSI , dengan jarak sekitar satu cm, dicantumkan kalimat penjelasan berikut :  
+ 
+Karya Tulis sebagai Syarat untuk Memperoleh
+Gelar Sarjana Komputer dari Fakultas Teknologi Informasi
+Universitas Bale Bandung  
+ 
+Catatan :  
+Huruf pertama pada tiap kata 'Karya Tulis, 'Gelar', 'Sarjana Komputer , dan nama Fakultas, serta 'Universitas Bale Bandung' diketik dengan huruf kapital; lainnya dengan huruf kecil.  
+ 
+Nama dan NPM  Mahasiswa  
+a. Nama mahasiswa ditulis dengan huruf kapital semua,  diletakkan di tengah, dengan jenis dan besar huruf yang sama dengan anak judul.  
+b. Letak tulisan nama mahasiswa sekitar satu setengah cm di bawah tulisan UNIVERSITAS BALE BANDUNG.  
+c. NPM  mahasiswa ditulis dengan huruf kapital semua, diletakkan di tengah, dibawah nama mahasiswa, dengan jenis dan besar huruf yang sama dengan anak judul. Baris NPM diatur agak rapat dengan baris nama mahasiswa.  
+  
+Simbol UNIVERSITAS BALE BANDUNG  
+Simbol UNIVERSITAS BALE BANDUNG bergaris tengah sekitar dua setengah cm. Titik tengahnya terletak kira -kira di tengah -tengah di antara baris NPM  mahasiswa dengan baris nama universitas (UNIVERSITAS BALE BANDUNG).  
+ 
+Program Strata 1, PROGRAM STUDI, Nama Universitas, Fakultas, Kota, dan Tahun Penyusunan . 
+a. Tulisan Program Strata 1, Program Studi, nama Universitas (UNIVERSITAS BALE BANDUNG ), Fakultas, kota dan tahun penyusunan laporan SKRIPSI  ditulis dengan huruf kapital semua, dengan jenis dan besar huruf yang sama dengan anak judul, berurutan seperti contoh di bawah.  
+b. Tahun penyusunan laporan SKRIPSI  yang ditulis paling bawah, diletakkan sekitar tiga setengah cm dari tepi bawah kertas.  
+ 
+Contoh : (besar huruf dan jarak spasi sesuaikan dengan ketentuan)  
+ 
+PROGRAM STRATA 1  
+PROGRAM STUDI XXXXXXXXXXX  
+FAKULTAS TEKNOLOGI INFORMASI  
+UNIVERSITAS BALE BANDUNG  
+BANDUNG  
+TAHUN  
+ 
+Penempatan tulisan pada sampul luar (yang sama dengan halaman judul), harus mempe rhatikan keseimbangan jarak margin atas, bawah, kiri, dan kanan.  
+
+Judul Bagian Dalam  
+Judul bagian dalam sama dengan sampul luar/kulit luar, hanya dicetak pada kertas HVS .  
+ 
+Daftar Pustaka  
+a. Pengetikan buku, jurnal, dan artikel yang digunakan sebagai bahan referensi, dilakukan seperti di bawah ini.  
+b. Jarak spasi yang digunakan untuk pengetikan daftar pustaka adalah satu spasi.  
+c. Baris kedua tiap buku (jurnal, artikel lain) referensi diketik menjorok ke dalam gunakan TAB .  
+d. Judul buku diketik huruf miring , semua diketik dengan huruf kecil, kecuali huruf pertama judul dan subjudul.  
+e. Kalau judul artikel yang digunakan merupakan bagian dari suatu  buku, maka yang diketik miring adalah judul bukunya (judul artikelnya tetap 
+diketik dengan huruf biasa.  
+f. Judul jurnal tidak diketik dengan huruf miring ; tetapi nama jurnalnya; hanya huruf pertama judul dan huruf pertama subjudul yang diketik dengan huruf kapital, lainya dengan huruf kecil.  
+g. Jarak spasi baris akhir suatu buku (jurnal, artikel lain) dengan baris pertama buku (jurnal, artikel lain) berikutnya adalah satu setengah spasi. 
+
+Urutan pengetikan  
+a. Buku  
+1) nama penulis, baik penulis Ind onesia maupun bukan Indonesia,  dimulai dengan nama belakang (diketik lengkap), diikuti nama depan (diketik singkatannya), diakhiri dengan tanda tanda (.); tahun terbit, diakhiri dengan tanda titik (.);  
+2) Judul buku, diketik dengan huruf miring ; semua diketi k dengan huruf kecil, kecuali huruf pertama ; 
+3) judul dan subjudul, diakhiri dengan tanda titik (.) ; kota tempat penerbit atau negara bagian tempat penerbit (yang dapat didahului dengan kota tempat penerbit), diakhiri dengan tanda titik dua (:); dan nama penerbit, diakhiri dengan tanda titik (.); masin g-masing dengan jarak dua ketukan, kecuali kota tempat penerbit dan nama penerbit berjarak satu ketukan.  
+ 
+b. Artikel yang diedit dalam satu buku:  
+1) nama penulis, baik penulis Indonesia maupun bukan Indonesia dimulai dengan nama belakang, diikuti nama depan, d iakhiri dengan titik (.); tahun terbit, diakhiri dengan titik (.);  
+2) judul artikel, tidak diketik dengan huruf miring ; semua diketik dengan huruf kecil, kecuali huruf pertama judul dan subjudul, diakhiri dengan titik (.); nama editor, diketik di belakang kat a 'Dalam' dan dimulai dengan nama depannya (diketik singkatannya),  diikuti nama belakang (diketik lengkap), diakhiri dengan titik dua (:); judul buku diketik dengan huruf miring ; semua diketik dengan huruf kecil, kecuali huruf pertama judul dan subjudul, d iakhiri dengan titik (.); kota tempat penerbit atau negara bagian tempat penerbit (yang dapat didahului dengan kota tempat penerbit), diakhiri dengan titik dua (:); dan nama penerbit, diakhiri dengan titik (. ); masing -masing dengan jarak dan ketukan, kecua li kota tempat penerbit dan nama penerbit berjarak satu ketukan.  
+ 
+c. Jurnal  
+1) nama penulis, baik penulis Indonesia maupun bukan Indonesia, dimulai dengan nama belakang, diikuti nama depan, diakhiri dengan titik (.); tahun terbit, diakhiri dengan titik (.);  
+2) judul artikel, tidak diketik dengan huruf miring ; semua diketik dengan huruf  kecil, kecuali huruf pertama judul dan subjudul, diakhiri dengan titik (.); nama jurnal, diketik dengan huruf miring , diakhiri dengan koma (,); nomor terbit jurnal, diketik dengan huruf miring , diakhiri dengan koma (,); nomor halaman, tidak diketik dengan huruf miring ; nomor halaman ini diketik mulai dari halaman awal sampai dengan akhir artikel.  
+ 
+d. Artikel lain  
+Pada prinsipnya mengikuti aturan seperti pada butir (a), (b), dan (c) d iatas. 
+ 
+e. Apabila dua referensi atau lebih yang digunakan, nama penulisnya sama, maka nama penulis pada referensi kedua tidak ditulis lagi; nama penulis diganti dengan gari s bawah sebanyak tujuh ketukan .  
+  
+Buku  
+Contoh : (besarnya huruf disesuaikan dengan ketentuan)  
+ 
+Davis, Gordon, 1982, Management Information Systems : Conceptual Foundation,
+Structured, and Development . Tokyo : McGraw - Hill Kogakusha, Ltd.  
+ 
+Fathansyah, 1999. Basis Data. Bandung : CV. Informatika  
+ 
+Iskandar Pohan, Husni dan Saiful Bahri, Kusnasriyant o. Pengantar Perancangan 
+Sistem. Jakarta : Erlangga.  
+ 
+atau  
+ 
+Davis, Gordon, 1982, Management Information Systems : Conceptual Foundation, 
+Structured, and Development. Tokyo : McGraw - Hill Kogakusha, Ltd.  
+ 
+Fathansyah, 1999. Basis Data. Bandung : CV. Infor matika  
+ 
+ 
+ Iskandar Pohan, Husni dan Saiful Bahri, Kusnasriyanto. Pengantar Perancangan 
+Sistem. Jakarta : Erlangga.  
+ 
+Artikel yang Diedit dalam Suatu Buku  
+Contoh : (besarnya huruf sesuaikan dengan ketentuan)  
+ 
+Lewin, K. 1958. Group decision and social chang e. dalam E.E. Maccoby, T.M. 
+Newcomb, & E.L. Hartley (Eds.), Reading in social psychology. 3rd edition. New 
+York : Holt Rinehard, ~ Winston.  
+ 
+--------  1968. Quasi -stationary social equilibrium and the problem of permanent 
+change. Dalam W.G. Bennis, K.D. Be nne, & R. Chin (Eds.), The planning of 
+change. New York : Holt Rinehard, & Winston.  
+ 
+atau  
+ 
+Lewin, K. 1958. Group decision and social change. dalam E.E. Maccoby, T.M. 
+Newcomb, & E.L. Hartley (Eds.), Reading in social psychology. 3rd edition. New York : 
+Holt Rinehard, & Winston.  
+ 
+------- 1968. Quasi -stationary social equilibrium and the problem of permanent 
+change. Dalam W.G. Bennis, K.D. Benne, & R. Chin (Eds.), The planning of 
+change. New York : Holt Rinehard, & Winston.  
+ 
+Jurnal  
+Contoh : (besarnya huruf  disesuaikan dengan ketentuan)  
+ 
+Bell, S.M. 1970 The development of the concept of the object as related to infant -
+mother attachment. Child Development, 41, 291 - 311.  
+ 
+Bower, G.H. 1981. Mood and memory,American Psychologist, 36, 139 -148.  
+ 
+ Maclean, P.D. 1958. The limbic system with respe ct to selfpreservation and the 
+preservation of the species. Journal of Nervous Mental Disease, 127, 1 -11.  
+ 
+----- 1967. The brain in relation to empathy and medical education. Journal of 
+Nervous Mental Disease, 144, 374 -382.  
+ 
+atau  
+ 
+Bell, S.M. 1970 The development of the concept of the object as related to infant -
+mother attachment. Child Development, 41, 291 - 311.  
+ 
+Bower, G.H. 1981. Mood and memory. American Psychologist, 36. 139 -148.  
+ 
+Maclean, P.D. 1958. The limbic system with resp ect to selfpreservation and the 
+preservation of the species. Journal of Nervous Mental Disease, 127,1 -11.  
+ 
+- --- 1967. The brain in relation to empathy and medical education. Journal of 
+Nervous Mental Disease, 144, 374 -382.  
+ 
+ 
+Artikel lain  
+Mulder. N. 198 4. Kebatinan dan hidup sehari -hari orang Jawa: Kelangsunga dan 
+peruhahan kulturil. Diterjemahkan oleh A.A Nugroho. jakarta : Gramedia.  
+ 
+atau  
+ 
+Mulder, N. 1984. Kebatinan dan hidup sehari -hari orang Jawa: Kelangsungan dan 
+perubahan kulturil. diterjemahkan oleh A.A. Nugroho. Jakarta: Gramedia.  
+  
+ 
+Tabel, Gambar, Grafik, dan Diagrarn  
+ a. Tabel  
+1) Tabel dimuat kira -kira di tengah -tengah halaman.  
+2) Judulnya diketik di atas tabel, mengikuti lebar tabel, dengan memperhitungkan keseimbangan halaman.  
+3) Nomor tabel terdiri ata s dua bagian, yaitu : bagian pertama menunjukkan nomor bab di mana tabel itu dimuat. bagian kedua menunjukkan nomor urut tabel pada bab itu. Misalnya, Tabel 2.4. menunjukkan bahwa tabel itu ada pada Bab II dan merupakan tabel urutan keempat pada bab itu.  
+4) Kalimat pertama judul tabel ditulis sesudah nomor tabel, dengan jarak dua ketukan.  Awal baris kedua judul tabel berada di bawah awal judul tabel . 
+b. Gambar  
+1) Gambar dimuat kira -kira di tengah -tengah halaman.  
+2) Judulnya diketik di bawah gambar, mengikuti lebar gambar.  
+3) Nomor gambar terdiri atas dua bagian yaitu : bagian pertama menunjukkan nomor bab di mana gambar itu dimuat; bagian kedua menunjukkan nomor urut gambar pada bab.  
+4) Kalimat pertama judul gambar ditul is sesudah nomor gambar, dengan jarak 
+2 (dua) ketukan.  Awal baris kedua judul gambar berada di bawah awal judul gambar . 
+c. Grafik  
+1) Grafik dimuat kira -kira di tengah -tengah halaman.  
+2) Judulnya diketik di atas grafik, mengikuti lebar grafik.  
+3) Nomor grafik terdiri atas dua bagian, yaitu : bagian pertama menunjukkan nomor bab di manan grafik itu dimuat; bagian kedua menunjukkan nomor urut grafik pada bab itu. Misalnya, Grafik 4.5, menunjukkan bahwa grafik itu ada pada Bab IV dan rnerupakan grafik urutan kelima pada b ab itu.  
+4) Kalimat pertama judul Grafik ditulis sesudah nomor gambar, dengan jarak dua ketukan.   Awal baris kedua judul grafik berada di bawah awal judul grafik.  
+d. Diagram  
+1) Diagram dimuat kira -kira di tengah -tengah halaman.  
+2) Judul diketik di bawah diagram, meng ikuti lebar diagram.  
+3) Nomor diagram terdiri atas dua bagian, yaitu : bagian pertama menunjukkan nomor bab di mana diagram itu dimuat ; bagian kedua menunjukkan nomor urut diagram pada bab itu. Misalnya, Diagram 1.1, menunjukkan bahwa diagram itu ada pada Bab I dan merupakan gambar urutan pertama pada bab itu.  
+4) Kalimat pertama judul diagram ditulis sesudah nomor diagram, dengan jarak dua k etukan.  Awal baris kedua judul diagram berada di bawah awal judul diagram.  
+  

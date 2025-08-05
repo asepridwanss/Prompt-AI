@@ -16,7 +16,9 @@ const Message = ({ message }: Props) => {
   const isChatGPT = message.user.name === "AI";
   const [copied, setCopied] = useState(false);
 
-  // Fungsi salin dengan gaya Word: Times New Roman, 12pt, justify
+  // Tampilkan seluruh teks tanpa dipotong
+  const trimmedText = message.text;
+
   const handleCopy = async () => {
     const markdownText = message?.text || "";
     const htmlContent = marked.parse(markdownText);
@@ -65,8 +67,10 @@ const Message = ({ message }: Props) => {
 
         {/* Chat Bubble */}
         <div
-          className={`flex flex-col max-w-3xl ${
-            isChatGPT ? "items-end" : "items-start"
+          className={`flex flex-col ${
+            isChatGPT
+              ? "items-end w-full"
+              : "items-start w-fit max-w-3xl"
           }`}
         >
           <div
@@ -74,9 +78,15 @@ const Message = ({ message }: Props) => {
               isChatGPT
                 ? "bg-[#F7F7F8] text-gray-900 border border-gray-200"
                 : "bg-[#2F2F2F] text-white"
-            } px-4 py-3 rounded-xl shadow-sm text-sm leading-relaxed tracking-wide whitespace-pre-wrap break-words text-justify prose prose-sm max-w-none`}
+            } 
+            px-4 py-3 rounded-xl shadow-sm text-sm leading-relaxed tracking-wide whitespace-pre-wrap break-words text-justify prose prose-sm
+            ${
+              isChatGPT
+                ? "max-w-[calc(100%-3.5rem-1.25rem)]"
+                : ""
+            }`}
           >
-            <ReactMarkdown>{message?.text || ""}</ReactMarkdown>
+            <ReactMarkdown>{trimmedText || ""}</ReactMarkdown>
 
             {/* Tombol Salin */}
             <button
